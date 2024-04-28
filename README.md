@@ -32,6 +32,27 @@ Alphabet Soup aims to improve the efficiency of its funding selection process by
             | 4       | 6            | sigmoid             |
             | output  | 1            | sigmoid             |
         - After 9 iterations of adjustments, these represent the combination of hyperparameters that exhibited the best performance. After utilizing kerastuner and running through several initial iterations, it was clear that the sigmoid activation function performed the best. The quantity of layers and neurons varied more with their impact on the accuracy.
+        - All iterations are depicted in the following images for reference:
+            - Original:<br>
+                ![orig](images/orig.png)
+            - Optimization 1a:<br>
+                ![opt1a](images/opt1a.png)
+            - Optimization 2:<br>
+                ![opt2](images/opt2.png)
+            - Optimization 3:<br>
+                ![opt3](images/opt3.png)
+            - Optimization 4:<br>
+                ![opt4](images/opt4.png)
+            - Optimization 5:<br>
+                ![opt5](images/opt5.png)
+            - Optimization 6:<br>
+                ![opt6](images/opt6.png)
+            - Optimization 7:<br>
+                ![opt7](images/opt7.png)
+            - Optimization 8:<br>
+                ![opt8](images/opt8.png)
+            - Optimization 9:<br>
+                ![opt9](images/opt9.png)
     - Were you able to achieve the target model performance?
         - The target model performance of 75% accuracy was unable to be achieved after 9 iterations of modifications to the model. The maximum accuracy achieved out of all iterations was 73%.
     - What steps did you take in your attempts to increase model performance?
